@@ -6,7 +6,6 @@
 
 body {
     background: #f5f7fa;
-    /* padding: 20px; */
     font-family: Montserrat;
     padding: 40px 20px;
 }
@@ -17,7 +16,7 @@ body {
     max-width: 1200px;
     max-height: 1350px;
     margin: 0 auto;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, .15);
 }
 
 /* сайдбар */
@@ -57,12 +56,11 @@ body {
 }
 
 
-.contacts-link-c,
-.contacts-link-e {
+.contacts-link-c, .contacts-link-e {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    opacity: 0.5;
+    opacity: .5;
     color: #ffffff;
 }
 
@@ -112,7 +110,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.42px;
+    letter-spacing: .42px;
     margin-bottom: 20px;
 }
 
@@ -131,7 +129,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.42px;
+    letter-spacing: .42px;
     color: #595959;
     width: 413px;
     height: 107px;
@@ -193,7 +191,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.36px;
+    letter-spacing: .36px;
     margin-bottom: 10px;
 }
 
@@ -212,7 +210,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.42px;
+    letter-spacing: .42px;
 }
 
 .university {
@@ -220,7 +218,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.48px;
+    letter-spacing: .48px;
     margin-bottom: 15px;
 }
 
@@ -228,6 +226,6 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.42px;
+    letter-spacing: .42px;
     margin-bottom: 10px;
 }
