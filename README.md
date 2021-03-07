@@ -1,1 +1,1 @@
-https://lada-vuso.github.io/rsschool-cv/
+https://lada-vuso.github.io/rsschool-cv/ 
