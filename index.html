@@ -1,55 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../rsschool-cv/style.css">
-</head>
+  <link rel="stylesheet" href="./style.css">
+ </head>
+
 <body>
   <div class="wrapper">
     <aside class="sidebar">
-      <img class=my-photo src="photo.jpg" alt+"my photo">
+      <figure><img class="my-photo" src="photo.jpg" alt="my photo"></figure>
         <div class="contacts">
           <h3 class="contacts-title">Contacts</h3>
-            <div>
-              <span class="contact-link-type">C:</span>
-                <a class="contacts-link-c" href="tel:+38 099 14 15 880">+38 099 14 11 880</a>
-            </div>
-            <div>
-              <span class="contact-link-type">E:</span> 
-                <a class="contacts-link-e" href=mailto:lada.vuso@gmail.com>lada@gmail.com</a>
-            </div>
-        </div>
-        <div class="skills"> 
-          <h3 class="skills-title">Tech Skills</h3>
             <ul>
-              <li class="li-item">
-                <span class="li-item-text">HTML5</span>
+              <li>
+                <span class="contact-link-type">C:</span>
+                  <a class="contacts-link-c" href="tel:+38-099-14-15-880">+38-099-14-15-880</a>
               </li>
-              <li class="li-item">
-                <span class="li-item-text">CSS3</span>
-              </li>
-              <li class="li-item">
-                <span class="li-item-text">GIT</span>
-              </li>
-              <li class="li-item">
-                <span class="li-item-text">WebPack</span>
-              </li>
-              <li class="li-item">
-                <span class="li-item-text">JavaScript</span>
-              </li>
-              <li class="li-item">
-                <span class="li-item-text">React.js</span>
-              </li>
-              <li class="li-item">
-                <span class="li-item-text">Node.js</span>
+              <li>
+                <span class="contact-link-type">E:</span> 
+                <a class="contacts-link-e" href=mailto:lada.vuso@gmail.com>lada@gmail.com</a>
               </li>
             </ul>
         </div>
-        <div class="skills"> 
+
+    <nav class="skills"> 
+      <h3 class="skills-title">Tech Skills</h3>
+        <ul>
+          <li class="li-item">
+            <span class="li-item-text">HTML5</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">CSS3</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">GIT</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">WebPack</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">JavaScript</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">React.js</span>
+          </li>
+          <li class="li-item">
+            <span class="li-item-text">Node.js</span>
+          </li>
+        </ul>
+    </nav>
+
+        <nav class="skills"> 
           <h3 class="skills-title">Soft Skills</h3>
           <ul>
             <li class="li-item">
@@ -65,15 +70,32 @@
               <span class="li-item-text">Teamwork</span>
             </li>
           </ul>
-        </div>
-  </aside>
-  <div class="about-me">
-    <div class="main-info">
-      <h2 class="profession">Trainee Javascript Developer</h2>
-      <h1 class="name">Lada Kozii</h1>
-      <p class="discript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est magnam iste ea tempora odio aliquid error nihil excepturi unde suscipit qui adipisci, vel minus id at reiciendis rem maxime sint?</p>
-    </div>
-    <div class="project-conteiner">
+        </nav>
+
+        <nav class="skills"> 
+          <h3 class="skills-title">Languages</h3>
+          <ul>
+            <li class="li-item">
+              <span class="li-item-text">Ukraine - С1</span>
+            </li>
+            <li class="li-item">
+              <span class="li-item-text">Russian - C2</span>
+            </li>
+            <li class="li-item">
+              <span class="li-item-text">English - B1</span>
+            </li>
+          </ul>
+        </nav>
+    </aside>
+ 
+  <section class="about-me">
+      <div class="main-info">
+        <h2 class="profession">Trainee Javascript Developer</h2>
+        <h1 class="name">Lada Kozii</h1>
+        <p class="discript">I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.</p>
+      </div>
+    
+    <nav class="project-conteiner">
       <h3 class="about-me-title">Projects</h3>
       <ol>
         <li class="project-item">
@@ -82,7 +104,6 @@
               <b>[</b>  
               <span class="tech-name">HTML5, CSS3</span>
               <b>]</b> 
-            <!-- </span> -->
         </li>
         <li class="project-item">
           <a class="projects-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/ </a>
@@ -90,7 +111,6 @@
               <b>[</b>
               <span class="tech-name">JavaScript</span>
               <b>]</b>
-            <!-- </span> -->
         </li>
         <li class="project-item">
           <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/ </a>
@@ -98,63 +118,46 @@
               <b>[</b>
               <span class="tech-name">React.js, Node.js</span>
               <b>]</b>
-            <!-- </span> -->
         </li>
       </ol>
-    </div>
-    <div>
-      <h3 class="about-me-title">Work Experience</h3>
+    </nav>
 
     <div>
-      <h4 class="profession-title">Front-End Developer <span class="firma">Freelance</span>  </h4>
+      <h3 class="about-me-title">Work Experience</h3>
+      <h4 class="profession-title">Frontend Developer <span class="firma">Freelance</span>  </h4>
         <span class="interval">
-          September 2019 - up to now <span class="line">|</span> Ukraine
+          October <time>2020</time> - up to now 
+          <span class="line">|</span> Ukraine
         </span>
         <ul class="profession-dutes-item">
-          <li class="profession-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nostrum!</li>
-          <li class="profession-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, quasi? Laborum expedita recusandae deserunt possimus!</li>
-          <li class="profession-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-          <li class="profession-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolor.</li>
+          <li class="profession-item">Accomplished the development of the company's German website, using Angular, Typescript, NGRX and ngx-translate.</li>
+          <li class="profession-item">Automated system deployment with Docker, Nginx on Amazon Cloud.</li>
         </ul>
     </div>
 
     <div>
-      <h4 class="profession-title">Manager <span class="firma">Roga & Kopyta New</span></h4>
+      <h4 class="profession-title">Frontend Developer Intern <span class="firma">Roga & Kopyta New</span></h4>
       <span class="interval">
-        March 2015 - October 2018 <span class="line">|</span> Ukraine
+        September <time>2020</time> - October <time>2020</time>
+        <span class="line">|</span> Ukraine
       </span>
       <ul class="profession-dutes-item">
-        <li class="profession-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nostrum!</li>
-        <li class="profession-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, quasi? </li>
-        <li class="profession-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li class="profession-item">Cut the company's site web loading time by 40% by optimizing the SPA bundle size, leading to better user experience.</li>
+        <li class="profession-item">Developed the system with NodeJS, TensorFlow, Scikit-learn for image-to-image translation. Preprocessed the images with scikit-learn to generate training data, used Numpy, Scipy for data processing.</li>
       </ul>
     </div>
 
-    <div>
-      <h4 class="profession-title">Manager <span class="firma">Roga & Kopyta LLC</span> </h4>
-      <span class="interval">
-        June 2014 - February 2015 <span class="line">|</span> Ukraine
-      </span>
-      <ul class="profession-dutes-item">
-        <li class="profession-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nostrum!</li>
-        <li class="profession-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, quasi? Laborum expedita recusandae deserunt possimus!</li>
-      </ul>
-    </div>
-  </div>
-
-  <div>
-    <h3 class="about-me-title">Education</h3>
-
-    <div>
-      <h4 class="university" >Kharkiv National University of Radioelectronics</h4>
-      <h5 class="faculty">Management</h5>
-        <span class="interval">
-          Septermber 2009 - June 2014  <span class="line">|</span> Ukraine
-        </span>
-                   
-    </div>
-  </div>
- </div>
+      <h3 class="about-me-title">Education</h3>
+      <div>
+        <h4 class="university" >National Metallurgical Academy of Ukraine</h4>
+        <h5 class="faculty">Management</h5>
+          <span class="interval">
+            September <time>2007</time> - June <time>2012</time>
+            <span class="line">|</span> Ukraine
+          </span>                   
+      </div>
+  </section>
+</div>
     
 </body> 
 </html>
